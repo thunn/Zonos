@@ -36,3 +36,8 @@ no-build-isolation-package = ["flash-attn", "mamba-ssm", "causal-conv1d"]
 
 [tool.ruff]
 line-length = 120
+
+[dependency-groups]
+dev = [
+    "spaces>=0.32.0",
+]
